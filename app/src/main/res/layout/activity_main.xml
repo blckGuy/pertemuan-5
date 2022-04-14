@@ -17,6 +17,7 @@
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
+
     <Button
         android:id="@+id/btnDisplayMessage"
         android:layout_width="wrap_content"

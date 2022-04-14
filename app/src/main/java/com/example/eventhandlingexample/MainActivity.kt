@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnDisplayMessage.setOnClickListener {
-            Toast.makeText(applicationContext, "hallo world", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "hallo world", Toast.LENGTH_SHORT).show()
         }
         btnDisplayMessage.setOnClickListener {
-            Snackbar.make(root_layout, "Long click", Snackbar.LENGTH_LONG).show()
+            Snackbar.make(root_layout, "long clik", Snackbar.LENGTH_LONG).show()
             true
         }
     }
